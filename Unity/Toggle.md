@@ -17,4 +17,4 @@
 toggle.SetIsOnWithoutNotify(true);
 ```
 
-토글의 이벤트를 invoke시키지 않고도 토글의 값을 변경할 수 있다. 
+토글의 이벤트를 invoke시키지 않고도 토글의 값을 변경할 수 있다.
