@@ -19,12 +19,3 @@ toggle.SetIsOnWithoutNotify(true);
 ```
 
 토글의 이벤트를 invoke시키지 않고도 토글의 값을 변경할 수 있다.
-=======
-
-## 2021-05-16
-
-```csharp
-toggle.SetIsOnWithoutNotify(true);
-```
-토글에 연결된 이벤트를 호출하지 않고 토글의 값만 바꾼다.
->>>>>>> 0776b73 (20210516 분류 나누기, toggle, coroutine)
