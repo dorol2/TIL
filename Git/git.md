@@ -32,3 +32,12 @@ git push --force origin 브랜치이름
 git branch -m <newname> : 브랜치이름 바꾸기
 
 ------------------------------------
+< author 바꾸기 >
+
+git rebase -i HEAD~1
+  i : insert -> pick을 e로 변경 -> esc키
+  :wq
+git commit --amend --author "dorol2 <dorol2@naver.com>"
+git rebase --continue
+
+------------------------------------
