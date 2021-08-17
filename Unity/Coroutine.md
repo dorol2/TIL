@@ -70,6 +70,13 @@ public class DownloadCheckClass : MonoBehaviour
 
 ```
 
+**예시 2**
+
+특정 오브젝트의 생성까지 기다렸다가 진행하는 부분에 사용
+
+```csharp
+public void
+```
 
 
 ---

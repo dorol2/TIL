@@ -1,4 +1,4 @@
-## 참조 형식 매개변수 전달
+# 참조 형식 매개변수 전달 (Passing Reference-Type Parameters)
 
 [참조 형식 매개 변수 전달 참고](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/passing-reference-type-parameters)
 
@@ -29,4 +29,4 @@ class PassingRefByVal
     }
 }
 ```
-참조 형식인 arr배열은 ref변수 없이 메서드에 전달된다. new 연산자를 사용하여 새 메모리를 할당하면 pArray변수가 새 배열을 참조한다. 
+참조 형식인 arr배열은 ref변수 없이 메서드에 전달된다. new 연산자를 사용하여 새 메모리를 할당하면 pArray변수가 새 배열을 참조한다.
