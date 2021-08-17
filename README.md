@@ -11,7 +11,8 @@
 - [Toggle](https://github.com/dorol2/TIL/blob/master/Unity/Toggle.md#unity-toggle)
 
 ## C#
-- [참조 형식 매개변수 전달 (Passing Reference-Type Parameters)]()
+- [참조 형식 매개변수 전달 (Passing Reference-Type Parameters)](https://github.com/dorol2/TIL/blob/master/C%23/PassingReference-TypeParameters.md#%EC%B0%B8%EC%A1%B0-%ED%98%95%EC%8B%9D-%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98-%EC%A0%84%EB%8B%AC-passing-reference-type-parameters)
+- [로컬 함수 (Local Method)](https://github.com/dorol2/TIL/blob/master/C%23/LocalFunctions.md#%EB%A1%9C%EC%BB%AC-%ED%95%A8%EC%88%98local-functions)
 
 
 
