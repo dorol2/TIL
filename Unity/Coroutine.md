@@ -15,8 +15,8 @@
 |StartCoRoutine(string)|다른 코루틴이 끝날 때까지 대기|
 |new WWW(string)|웹 통신 작업이 끝날 때까지 대기|
 |new AsyncOperation|비동기 작업이 끝날 때까지 대기|
-|new WaitUntil(system.Func<Bool> predicate)|특정 조건식이 성공할 때까지 대기|
-|new WaitWhile(system.Func<Bool> predicate)|특정 조건식이 false가 될 때까지 대기|
+|new WaitUntil(system.Func<Bool> predicate)|내부 조건식이 true일 때까지 대기 (매 프레임 확인)|
+|new WaitWhile(system.Func<Bool> predicate)|내부 조건식이 false가 될 때까지 대기 (매 프레임 확인)|
 
 
 ```csharp
