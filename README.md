@@ -17,7 +17,6 @@
 
 
 ## 추가 계획
-- non-generic / generic [참고](https://docs.microsoft.com/ko-kr/dotnet/standard/collections/when-to-use-generic-collections) 
 - 이벤트 드리븐
 - mvvm 파악
 ----
