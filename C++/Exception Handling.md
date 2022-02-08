@@ -1,4 +1,4 @@
-<Exception Handling 예외처리>
+# __Exception Handling 예외처리__
 
 # try, catch, throw
 - 하나의 try문에 여러 개의 catch문이 연결될 수 있다. <br>
