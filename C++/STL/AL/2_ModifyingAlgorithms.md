@@ -186,4 +186,26 @@ void main()
 }
 ```
 
-## transform()
+## transform(b, e, t, f(*p))
+- 순차열의 모든 원소를 원본의 변화 없이 목적지의 순차열로 저장
+- transform(v.begin(), v.end(), v2.begin(), f());
+- return iterator는 t의 v1을 모두 복사하고 난 다음 인자를 가리킴
+```cpp
+transform(v1.begin(), v1.end(), v2.begin(), [](int a) { return a + 3; });
+```
+
+### transform(b, e, b2, t, f(*p, *q))
+- v1과 v2의 iterator p, q를 f(*p, *q)한 값을 순차열 t에 저장
+- return iterator는 t의 v1을 모두 복사하고 난 다음 인자를 가리킴
+
+
+
+
+
+
+
+
+
+
+
+
