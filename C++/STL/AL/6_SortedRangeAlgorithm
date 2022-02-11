@@ -1,0 +1,60 @@
+# 6_SortedRangeAlgorithm
+- 정렬된 범위 알고리즘 : **입력되는 순차열이 반드시 정렬**되어 있아야 한다. 
+- 원소의 equal을 비교할 때, a < b 와 같이 연산 사용
+
+## binary_search(b, e, x)
+- b, e 구간에 x와 같은 원소가 있으면 true 반환
+- 속도가 빠르다. 
+
+## includes(b, e, b', e')
+한 순차열이 다른 순차열의 부분집합인지 판단.
+
+## equal_range(b, e, v)
+순자열에서 x와 같은 원소의 iterator pair 반환
+- return pair(T\<U>::iterator, T\<U>::iterator)
+- iter_pair.first : lower_bound() 와 같다.
+- iter_pair.second : upper_bound() 와 같다.
+
+## merge(b, e)
+- 덮어쓰기(overwrite)모드
+- return 정렬하고 난 바로 다름 iterator
+
+## inplace_merge(b, m, e)
+두 구간으로 정렬된 순차열을 한 구간으로 정렬 </br>
+ex)
+```
+10 20 30 40 50 20 30 40
+inplace_merge
+10 20 20 30 30 40 40 50
+```
+
+## set_union(b1, e1, b2, e2, b3)
+- 두 순차열의 합집합 출력
+- return 합집합이 끝난 이후의 iterator
+```
+전제) v3의 크기는 10으로 정의 
+v1 : 1, 2, 3, 4, 5
+v2 : 2, 3, 6
+v3.begin() ~ set_union()의 return : 1, 2, 3, 4, 5, 6
+v3 : 1, 2, 3, 4, 5, 6, 0, 0, 0
+```
+
+## set_intersection(b1, e1, b2, e2, b3)
+정렬된 두 순차열의 교집합을 구한다. </br>
+(overwrite) -> 순차열의 크기가 변하지 않는다. 
+
+## set_difference(b1, e1, b2, e2, b3)
+정렬된 두 순차열의 차집합을 구한다. </br>
+(overwrite) -> 순차열의 크기가 변하지 않는다. 
+
+## set_symmetric_difference(b1, e1, b2, e2, b3)
+정렬된 두 순차열의 대칭차집합을 구한다. </br>
+(overwrite) -> 순차열의 크기가 변하지 않는다. 
+
+
+
+
+
+
+
+
